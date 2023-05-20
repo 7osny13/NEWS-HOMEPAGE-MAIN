@@ -128,14 +128,52 @@
 .item5
 {
     grid-area: five ;
+    display: flex;
+    margin-top: 20px;
+}
+.card-image img
+{
+    width: 108px;
+}
+.card-info
+{
+    margin-left: 15px;
+}
+.card-info * 
+{
+    margin-bottom: 10px;
+}
+.card-info h4 
+{
+    color: var(--Dark-grayish-blue);
+    font-size: 2rem;
+}
+.card-info h5 
+{
+    font-weight: 800;
+    font-size: 1.1rem;
+}
+.card-info h5:hover
+{
+    color: var(--Soft-red);
+    cursor: pointer;
+}
+.card-info p
+{
+    font-weight: 200;
+    color: var(--Dark-grayish-blue);
 }
 .item6
 {
     grid-area: six;
+    display: flex;
+    margin-top: 20px;
 }
 .item7
 {
     grid-area: seven;
+    display: flex;
+    margin-top: 20px;
 }
 .main-content
 {
