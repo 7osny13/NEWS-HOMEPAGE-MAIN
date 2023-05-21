@@ -20,18 +20,9 @@
     /* margin: auto; */
     padding: 50px 150px ;
 }
-.navbar
+#navbarNav ul li a:hover
 {
-    display: flex;
-    margin-bottom: 40px;
-}
-.navbar .first-p
-{
-    margin-left: auto;
-}
-.navbar p 
-{
-    padding: 15px;
+    color: var(--Soft-orange);
 }
 .item1
 {
@@ -47,12 +38,12 @@
 {
     grid-area: two;
     background-color: var(--Very-dark-blue);
-    height: 90%;
+    height: 99%;
     width: 90%;
 }
 .item2 .item2-container {
     padding-left: 15px;
-    padding-top: 15px;
+    padding-top: 5px;
     padding-right: 20px;
     
 }
@@ -155,7 +146,7 @@
 }
 .card-info h5:hover
 {
-    color: var(--Soft-red);
+    background-color: var(--Soft-red);
     cursor: pointer;
 }
 .card-info p
@@ -184,3 +175,29 @@
     gap: 10px;
     height: 80vh;
 }
+
+/* @media (max-width: 768px)
+body {
+    display: grid;
+    grid-template-areas: 'one one one one two two'
+    'three three four four two two'
+    'five five six six seven seven';
+    gap: 10px;
+    height: 80vh;
+} */
+
+@media  (max-width: 480px) {
+    
+    .main-content {
+        display: grid;
+        grid-template-areas: 'one'
+        'two '
+        'three '
+        'four '
+        'five '
+        'six '
+        'seven ';
+        gap: 10px;
+        height: 80vh;
+    }
+  }
